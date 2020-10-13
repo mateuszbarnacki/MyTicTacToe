@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="TicTacToe.GameWindow" prefWidth="480" prefHeight="460">
+    <center>
+        <GridPane fx:id="gridPane" alignment="CENTER" hgap="5" vgap="5" style="-fx-background-color: black" maxWidth="310" maxHeight="310">
+
+        </GridPane>
+    </center>
+</BorderPane>
