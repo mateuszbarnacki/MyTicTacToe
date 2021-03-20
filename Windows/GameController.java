@@ -1,5 +1,6 @@
-package TicTacToe;
+package TicTacToe.Windows;
 
+import TicTacToe.Board.TicTacToeBoard;
 import javafx.animation.*;
 import javafx.collections.ObservableList;
 import javafx.fxml.FXML;
@@ -22,7 +23,7 @@ import javafx.util.Duration;
 import java.io.IOException;
 import java.util.Random;
 
-public class GameWindow {
+public class GameController {
     @FXML
     private GridPane gridPane;
     private TicTacToeBoard ticTacToeBoard;

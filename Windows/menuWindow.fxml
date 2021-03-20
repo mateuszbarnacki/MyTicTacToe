@@ -7,7 +7,7 @@
 <?import javafx.scene.control.CheckBox?>
 <?import javafx.scene.control.Label?>
 <?import javafx.geometry.Insets?>
-<BorderPane fx:controller="TicTacToe.MenuController" xmlns:fx="http://javafx.com/fxml" prefWidth="480" prefHeight="460">
+<BorderPane fx:controller="TicTacToe.Windows.MenuController" xmlns:fx="http://javafx.com/fxml" prefWidth="480" prefHeight="460">
     <center>
         <VBox alignment="CENTER" spacing="40">
             <Label text="Tic Tac Toe" textAlignment="CENTER" style="-fx-font-size: 40; -fx-text-fill: orange; -fx-font-family: Georgia">

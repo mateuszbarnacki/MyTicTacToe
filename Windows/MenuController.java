@@ -1,5 +1,6 @@
-package TicTacToe;
+package TicTacToe.Windows;
 
+import TicTacToe.Windows.GameController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
@@ -39,7 +40,7 @@ public class MenuController {
             Stage mainWindow = (Stage) ((Node)actionEvent.getSource()).getScene().getWindow();
             // Get the controller and use drawBoard method, because we have to pass information
             // about preferences to the gameWindow controller.
-            GameWindow gameWindow = fxmlLoader.getController();
+            GameController gameWindow = fxmlLoader.getController();
             gameWindow.drawBoard(isSingleMode, checkSignBox.isSelected());
 
             // Set the new scene in the current window

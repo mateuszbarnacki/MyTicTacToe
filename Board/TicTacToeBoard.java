@@ -1,4 +1,4 @@
-package TicTacToe;
+package TicTacToe.Board;
 
 // This class contains the tic tac toe board.
 // It stores O as 1 and X as 2. The blank spaces
