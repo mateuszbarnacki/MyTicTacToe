@@ -1,6 +1,5 @@
-package TicTacToe.Windows;
+package TicTacToe.Views;
 
-import TicTacToe.Windows.GameController;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;

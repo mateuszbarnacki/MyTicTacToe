@@ -1,4 +1,4 @@
-package TicTacToe.Windows;
+package TicTacToe.Views;
 
 import TicTacToe.Board.TicTacToeBoard;
 import javafx.animation.*;
